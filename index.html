@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2025 by sangheekeem (http://jsbin.com/suzigok/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>홈파티 레시피 메인</title>
+  <style>
+    body {
+      font-family: 'Pretendard', sans-serif;
+      background-color: #fff8ef;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .recipe-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .recipe-card {
+      background: white;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+    }
+    .recipe-card:hover {
+      transform: translateY(-5px);
+    }
+    .image-placeholder img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>홈파티 간편식 Recipe Book</h1>
+    <p>아래 레시피 중 하나를 선택해보세요!</p>
+
+    <div class="recipe-grid">
+      <a href="https://output.jsbin.com/puvibiw" target="_blank" class="recipe-card">
+        <div class="image-placeholder">
+          <img src="https://i.imgur.com/pcE5wo8.jpg" alt="카나페" />
+        </div>
+        <h3>카나페 (Kanape)</h3>
+        <p>간단하고 고급스러운 핑거푸드</p>
+      </a>
+      <a href="https://output.jsbin.com/xaqasem" target="_blank" class="recipe-card">
+        <div class="image-placeholder">
+          <img src="https://i.imgur.com/JlNEJ93.jpg" alt="무쌈말이" />
+        </div>
+        <h3>무쌈말이</h3>
+        <p>가볍고 건강한 채소롤</p>
+      </a>
+      <a href="https://output.jsbin.com/diwadad" target="_blank" class="recipe-card">
+        <div class="image-placeholder">
+          <img src="https://i.imgur.com/baOpiEM.jpg" alt="샌드위치 롤" />
+        </div>
+        <h3>샌드위치 롤</h3>
+        <p>아이들이 좋아하는 부드러운 맛</p>
+      </a>
+      <a href="https://output.jsbin.com/gudifof" target="_blank" class="recipe-card">
+        <div class="image-placeholder">
+          <img src="https://i.imgur.com/kJjNZ8A.jpg" alt="닭꼬치" />
+        </div>
+        <h3>닭꼬치</h3>
+        <p>든든하고 맛있는 꼬치요리</p>
+      </a>
+      <a href="https://output.jsbin.com/dehoheb" target="_blank" class="recipe-card">
+        <div class="image-placeholder">
+          <img src="https://i.imgur.com/mF0zcev.jpg" alt="딸기 초코퐁듀" />
+        </div>
+        <h3>딸기 초코퐁듀</h3>
+        <p>달콤한 디저트로 마무리!</p>
+      </a>
+      <a href="https://output.jsbin.com/fovuxoj/1" target="_blank" class="recipe-card">
+        <div class="image-placeholder">
+          <img src="https://i.imgur.com/ce2ar8T.jpg" alt="상그리아" />
+        </div>
+        <h3>상그리아</h3>
+        <p>상큼한 과일 와인 음료</p>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
